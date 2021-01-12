@@ -1,3 +1,6 @@
+# IDE & Editor files
+.idea/
+
 # Logs
 logs
 *.log

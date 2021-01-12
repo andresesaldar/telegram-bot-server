@@ -1,0 +1,35 @@
+{
+  "name": "telegram-bot-server",
+  "version": "1.0.0",
+  "description": "Telegram Bot Nodejs Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "nodemon dist/index.js",
+    "build": "tsc -d",
+    "build:dev": "tsc -d -w",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": "git+https://github.com/andresesaldar/telegram-bot-server.git",
+  "author": "Andres Saldarriaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresesaldar/telegram-bot-server/issues"
+  },
+  "homepage": "https://github.com/andresesaldar/telegram-bot-server#readme",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^14.14.20",
+    "@types/node-cleanup": "^2.1.1",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "node-cleanup": "^2.1.2",
+    "rxjs": "^6.6.3",
+    "telegraf": "^4.0.0"
+  }
+}
