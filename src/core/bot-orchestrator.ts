@@ -87,3 +87,5 @@ export class BotOrchestrator {
     }
 
 }
+
+export const botOrchestrator = (): BotOrchestrator => BotOrchestrator.instance();

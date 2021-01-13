@@ -76,3 +76,5 @@ export class CleanupManager {
     }
 
 }
+
+export const cleanupManager = (): CleanupManager => CleanupManager.instance();
